@@ -1,27 +1,24 @@
-.about_01{
-    background-color: #0A192F;
-    color: #fff;
+.about_01 {
+  background-color: #0a192f;
+  color: #fff;
+  margin: auto;
 }
-.inner{
-    background-color: #0A192F;
-    color: #8892B0;
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    grid-gap: 50px;
-    width: 100%;
-    
+.inner {
+  background-color: #0a192f;
+  color: #8892b0;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-gap: 50px;
+  width: 100%;
 
-    @media (max-width: 768px) {
-      display: block;
-    }
-    
-}
-ul.skill-list{
+  @media (max-width: 768px) {
     display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+  }
+}
+.about__StyledText {
+  display: block;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
 }
