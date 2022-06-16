@@ -1,0 +1,27 @@
+.about_01{
+    background-color: #0A192F;
+    color: #fff;
+}
+.inner{
+    background-color: #0A192F;
+    color: #8892B0;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 50px;
+    width: 100%;
+    
+
+    @media (max-width: 768px) {
+      display: block;
+    }
+    
+}
+ul.skill-list{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
