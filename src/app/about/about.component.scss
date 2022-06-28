@@ -1,6 +1,6 @@
 .about_01 {
   background-color: #0a192f;
-  color: #fff;
+  color: aquamarine;
   margin: auto;
 }
 .inner {
@@ -10,7 +10,8 @@
   grid-template-columns: 3fr 2fr;
   grid-gap: 50px;
   width: 100%;
-
+  text-align: justify;
+  
   @media (max-width: 768px) {
     display: block;
   }
@@ -19,6 +20,6 @@
   display: block;
 }
 ul {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
 }
