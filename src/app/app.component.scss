@@ -1,4 +1,26 @@
-.body1{
-    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
-    margin: 0px;
+.body1 {
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  background-color: #0a192f;
+  color: aquamarine;
+  align-items: right;
+  align-content: right;
+  display: block;
+  align-self: right;
+  text-align: right;
+  text-decoration: none;
+  float: right;
+  padding: 0px 10px;
+}
+nav > a {
+  text-decoration: none;
+}
+li{
+    display: inline;
+    padding: 10px;
+    
 }
