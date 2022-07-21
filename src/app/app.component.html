@@ -1,12 +1,96 @@
 <header class="barrita">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <nav>
     <div class="logo">
       <a href="/home" aria-label="home">
-        <img src="../../assets/utpl_icono.png" style="max-width: 10%; display: block; position: static;">
+        <img
+          src="../../assets/utpl_icono.png"
+          style="max-width: 10%; display: block; position: static"
+        />
       </a>
+    </div>
+    <div class="barrita">
+      <ol>
+        <li class="about" style="transition-delay: 0ms">
+          01. About
+          <a routerLink="/about"></a>
+        </li>
+        <li class="experience" style="transition-delay: 0ms">
+          02. Experience
+          <a routerLink="/experience"></a>
+        </li>
+        <li class="work" style="transition-delay: 0ms">
+          03. Work
+          <a routerLink="/work"></a>
+        </li>
+        <li class="contact" style="transition-delay: 0ms">
+          04. Contact
+          <a routerLink="/contact"></a>
+        </li>
+      </ol>
     </div>
   </nav>
 </header>
+<div class="izquierda">
+  <ul class="social">
+    <li class="facebook">
+      <a
+        href="https://www.facebook.com/utpl.loja"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="../../assets/facebook.png" alt="fb" style="max-width: 5%" />
+      </a>
+    </li>
+    <li class="twitter">
+      <a
+        href="https://twitter.com/utpl?lang=es"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="../../assets/twitter.png" alt="tw" style="max-width: 5%" />
+      </a>
+    </li>
+    <li class="youtube">
+      <a
+        href="https://www.youtube.com/user/utpl"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="../../assets/youtube.png" alt="yt" style="max-width: 5%" />
+      </a>
+    </li>
+    <li class="instagram">
+      <a
+        href="https://www.instagram.com/utpl/?hl=es-la"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="../../assets/instagram.png" alt="ins" style="max-width: 5%" />
+      </a>
+    </li>
+    <li class="flickr">
+      <a
+        href="https://www.flickr.com/photos/utpl/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="../../assets/flickr.png" alt="fli" style="max-width: 5%" />
+      </a>
+    </li>
+    <li class="linkedin">
+      <a
+        href="https://www.linkedin.com/school/universidad-tecnica-particular-de-loja-utpl/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="../../assets/linkedin.png" alt="lk" style="max-width: 5%" />
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="derecha"></div>
+
 <body class="body1">
   <app-about></app-about>
   <app-experience></app-experience>
