@@ -4,6 +4,7 @@
   margin: 0px;
   padding: 0px;
   background-color: #0a192f;
+  text-align: center;
 }
 nav {
   color: aquamarine;
@@ -17,13 +18,8 @@ li{
     display: inline;
     padding: 10px; 
 }
-ul{
+.izquierda{
   float: right;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
 }
 

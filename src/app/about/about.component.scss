@@ -8,14 +8,8 @@
   grid-template-columns: 3fr 2fr;
   grid-gap: 50px;
   width: 100%;
-  text-align: justify;
+  text-align: center;
   
-  @media (max-width: 768px) {
-    display: block;
-  }
-}
-.about__StyledText {
-  display: block;
 }
 ul {
   display: grid;
